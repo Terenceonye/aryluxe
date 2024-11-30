@@ -96,3 +96,35 @@
         display: block;
     }
 }
+
+
+
+
+/* whatsapp */
+
+ /* WhatsApp Button Styling */
+ .whatsapp-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it stays above other elements */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebc59; /* Darker WhatsApp green */
+}
+
+.whatsapp-btn i {
+    font-size: 24px; /* Icon size */
+}
