@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aryluxe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconify Icon Cdn -->
+     <!--Maxst Icon -->
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>Aryluxe</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar Large Screen -->
+        <nav class="navba d-flex justify-content-between align-items-center">
+            <div class="brand-logo">
+                <a href="/">
+                    <img src="assets/img/brand-logo.png" alt="">
+                </a>
+            </div>
+            <ul class="navba-links">
+                <li><a href="/" class="active" style="color: #ffff;">Home <img src="assets/img/star-icon.png" alt="" width="20px"></a> </li>
+                <li><a href="about.html">About <img src="assets/img/star-icon.png" alt="" width="20px"></a></li>
+                <li><a href="services.html">Services <img src="assets/img/star-icon.png" alt="" width="20px"></a></li>
+                <li><a href="gallery.html">Gallery <img src="assets/img/star-icon.png" alt="" width="20px"></a></li>
+                <li><a href="contactus.html">Contact Us <img src="assets/img/star-icon.png" alt="" width="20px"></a></li>
+            </ul>
+        </nav>
+
+    <!-- Navbar Small Scren -->
+    <nav class="sm-navba d-flex justify-content-between align-items-center"><br>
+        <div class="open-navba">
+            <div class="sm-hamburger" onclick="navba_open()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div> 
+        <div class="brand-logo">
+            <a href="/">
+                
+               <img src="assets/img/brand-logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="sm-navbalinks-wrapper" style="z-index:3;width:300px;" id="mySidebar">
+            <div class="close-navba">
+                <a href="#" onclick="navba_close()" class="" title="close menu">
+                <i class="fa fa-remove"></i>
+                </a>
+            </div>
+            <div class="sm-navbalinks">
+                <ul class="navba-links">
+                    <li><a href="/" class="active" onclick="navba_close()">Home</a></li>
+                    <li><a href="about.html" onclick="navba_close()">About</a></li>
+                    <li><a href="services.html" onclick="navba_close()">Services</a></li><li><a href="gallery.html" onclick="navba_close()">Gallery</a></li>
+                    <li><a href="contactus.html" onclick="navba_close()">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+         <!-- Overlay effect when opening sidebar on small screens -->
+        <div class="navba-overlay" onclick="navba_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    </nav>         
+    </header>
+</body>
+</html>
