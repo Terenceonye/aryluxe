@@ -29,19 +29,24 @@
 
     <!-- Navbar Small Scren -->
     <nav class="sm-navba d-flex justify-content-between align-items-center"><br>
-        <div class="open-navba">
-            <div class="sm-hamburger" onclick="navba_open()">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+        <div style="display: flex; justify-content: space-between; margin: 0 10px; align-items: center;">
+            <div class="brand-logo">
+                <a href="/">
+                    
+                   <img src="assets/img/brand-logo.png" alt="logo">
+                </a>
             </div>
-        </div> 
-        <div class="brand-logo">
-            <a href="/">
-                
-               <img src="assets/img/brand-logo.png" alt="logo">
-            </a>
+    
+            
+            <div class="open-navba">
+                <div class="sm-hamburger" onclick="navba_open()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div> 
         </div>
+        
         <div class="sm-navbalinks-wrapper" style="z-index:3;width:300px;" id="mySidebar">
             <div class="close-navba">
                 <a href="#" onclick="navba_close()" class="" title="close menu">

@@ -96,7 +96,11 @@ header{
    .sm-navba{
     display: flex !important;
     padding: .5rem 1rem .5rem 0;
+    justify-content: flex-start !important;
    }
+
+
+
 
    .sm-navba .getquote-btn{
     max-height: 58px;
