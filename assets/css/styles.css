@@ -9,14 +9,14 @@
     --secondary: #EBC6A4;
     --light: #ffffff;
     --dark: #000000;
-    --body-color: #f8f1ea;
+    --body-color: #f8fff3;
     --accent-color: #f7eadd;
     --text-grey: #6A6969;
-    --bg-color: #F6F0EA;
+    --bg-color: #f8fff3;
 }
 
 body {
-    background-color: #f8fff3;
+    background-color: var(--body-color);
 }
 
 /* general for titles */
